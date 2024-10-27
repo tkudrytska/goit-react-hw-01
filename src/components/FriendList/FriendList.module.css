@@ -1,0 +1,16 @@
+.friendsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 80px;
+}
+
+.friendItem {
+  display: block;
+  width: 100px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
