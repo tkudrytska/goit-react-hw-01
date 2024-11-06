@@ -1,8 +1,7 @@
 import css from "./FriendList.module.css";
 import FriendListItem from '../FriendListItem/FriendListItem';
-import friends from "../../friends.json";
 
-const FriendList = () => {
+const FriendList = ({friends}) => {
   return (
     <ul className={css.friendsWrap}>
       {friends.map((friend) => (
