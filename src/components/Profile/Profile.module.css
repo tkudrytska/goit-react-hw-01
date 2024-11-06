@@ -33,6 +33,7 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: black;
+  margin-top: 20px;
 }
 
 .profileText {
@@ -41,6 +42,7 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: grey;
+  margin-top: 20px;
 }
 
 .profileStats {
