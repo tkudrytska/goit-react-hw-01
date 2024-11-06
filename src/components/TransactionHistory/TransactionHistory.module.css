@@ -1,26 +1,26 @@
-table {
+.table {
   width: 100%;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
   margin-top: 30px;
 }
 
-th,
-td {
+.itemsHead,
+.itemsBody {
   padding: 10px;
   text-align: left;
   border: 1px solid #ddd;
 }
 
-th {
+.itemsHead {
   background-color: #f4f4f4;
   font-weight: bold;
 }
 
-tbody tr:nth-child(even) {
+.tableBody .lines:nth-child(even) {
   background-color: #f9f9f9;
 }
 
-tbody tr:nth-child(odd) {
+.tableBody .lines:nth-child(odd) {
   background-color: #ffffff;
 }
